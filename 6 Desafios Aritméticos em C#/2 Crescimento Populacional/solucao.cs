@@ -39,7 +39,7 @@ using System;
 
 class CrescimentoPopulacional {
     static void Main(string[] args) {
-     Console.WriteLine("Digite Qunatas vezes Deseja Repetir:");
+     Console.WriteLine("Digite Quantas vezes Deseja Repetir:");
       int vT = Convert.ToInt32(Console.ReadLine());
       
       int vPa, vPb;
