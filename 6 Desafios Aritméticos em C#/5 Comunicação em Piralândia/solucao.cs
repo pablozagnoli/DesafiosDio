@@ -27,6 +27,7 @@ using System;
 class ComunicaoEmPiralandia {
   static void Main(string[] args) { 
     
+    Console.WriteLine("Digite o Numero:");   
     string vN = Console.ReadLine();
     char[] vArr = vN.ToCharArray();
     
