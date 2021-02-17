@@ -38,7 +38,8 @@
 using System; 
 
 class CrescimentoPopulacional {
-    static void Main(string[] args) { 
+    static void Main(string[] args) {
+     Console.WriteLine("Digite Qunatas vezes Deseja Repetir:");
       int vT = Convert.ToInt32(Console.ReadLine());
       
       int vPa, vPb;
@@ -50,7 +51,7 @@ class CrescimentoPopulacional {
       for (int i = 0; i < vT; i++)
       {
         vAnos = 0;
-        
+        Console.WriteLine("Digite o Valor Das Cidades:");
         string[] Vvalores = Console.ReadLine().Split();
         
         vPa = int.Parse(Vvalores[0]);
