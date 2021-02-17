@@ -32,18 +32,22 @@ class TempoDeUmEvento
   {
     int vDiaInicio, vDiaTermino, vHoraMomentoInicio, vMinutoMomentoInicio, vSegundoMomentoInicio;
     int vHoraMomentoTermino, vMinutoMomentoTermino, vSegundoMomentoTerminio;
-
+    
+    Console.WriteLine("Digite o Dia De Inicio:");
     string[] vDadosInicio = Console.ReadLine().Split(" ");
     vDiaInicio = Convert.ToInt32(vDadosInicio[1]);
-
+     
+    Console.WriteLine("Digite a Hora De Incio:");
     string[] vDadosMomentoInicio = Console.ReadLine().Split(":");
     vHoraMomentoInicio = Convert.ToInt32(vDadosMomentoInicio[0]);
     vMinutoMomentoInicio = Convert.ToInt32(vDadosMomentoInicio[1]);
     vSegundoMomentoInicio = Convert.ToInt32(vDadosMomentoInicio[2]);
-
+     
+    Console.WriteLine("Digite o Dia Do Termino:");
     string[] vDadosTermino = Console.ReadLine().Split(" ");
     vDiaTermino = Convert.ToInt32(vDadosTermino[1]);
-
+    
+    Console.WriteLine("Digite a Hora Do Termino:");
     string[] vDadosMomentoTermino = Console.ReadLine().Split(":");
     vHoraMomentoTermino = Convert.ToInt32(vDadosMomentoTermino[0]);
     vMinutoMomentoTermino = Convert.ToInt32(vDadosMomentoTermino[1]);
