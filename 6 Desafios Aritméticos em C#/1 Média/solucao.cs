@@ -23,12 +23,14 @@ class Media1
 {
     static void Main(string[] args)
     {
+     
         double vA;
         double vB;
         
         double vMedia;
-        
+        Console.WriteLine("Digite o Primeiro Valor:");
         vA = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Digite o Segundo Valor:");
         vB = Convert.ToDouble(Console.ReadLine());
         
         vMedia = ((vA * 3.5) + (vB * 7.5)) / 11;
